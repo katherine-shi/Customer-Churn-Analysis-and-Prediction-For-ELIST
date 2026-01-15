@@ -1,0 +1,13 @@
+prefix=/Users/kathyshi/Desktop/customer churn analysis /venv
+exec_prefix=/Users/kathyshi/Desktop/customer churn analysis /venv
+libdir=/Users/kathyshi/Desktop/customer churn analysis /venv/lib
+sharedlibdir=/Users/kathyshi/Desktop/customer churn analysis /venv/lib
+includedir=/Users/kathyshi/Desktop/customer churn analysis /venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
