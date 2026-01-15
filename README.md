@@ -44,6 +44,7 @@ company is losing the majority of customers before they generate enough value to
 
 **2. Logistics Friction Erodes Purchase Frequency**
 The Warehouse_To_Home metric consistently ranks as a high-impact feature in the model. The data distribution reveals a clear trend where churn rates rise monotonically as the distance from the warehouse increases. This trend demonstrates that longer delivery times (proxied by distance) are creating "logistics friction". This friction directly degrades customer satisfaction and suppresses the "Frequency" multiplier in our CLV model, particularly for users in remote areas.
+
 <img width="226" height="145" alt="image" src="https://github.com/user-attachments/assets/7c109646-e1d0-4924-b90e-7b29a1201787" /> <img width="215" height="148" alt="image" src="https://github.com/user-attachments/assets/ce97518a-32f4-4e9c-89dd-e0b447d01c7a" />
 
 
@@ -136,3 +137,4 @@ Based on the data insights above, the following recommendations have been provid
 
 - Insight: Gender and CityTier have negligible impact on churn (Feature Importance < 0.03).
 - Action: Stop broad marketing campaigns based on gender or city tier. Reallocate budget to behavioral triggers (e.g., detecting when a user's App session time drops or click through rate declines), as these yield a significantly higher ROI.
+
